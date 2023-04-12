@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	bolt "go.etcd.io/bbolt"
-	"go.etcd.io/bbolt/internal/common"
+	bolt "github.com/khuntor/bbolt"
+	"github.com/khuntor/bbolt/internal/common"
 )
 
 var statsFlag = flag.Bool("stats", false, "show performance stats")

@@ -11,9 +11,9 @@ import (
 	"testing"
 	"testing/quick"
 
-	bolt "go.etcd.io/bbolt"
-	"go.etcd.io/bbolt/errors"
-	"go.etcd.io/bbolt/internal/btesting"
+	bolt "github.com/khuntor/bbolt"
+	"github.com/khuntor/bbolt/errors"
+	"github.com/khuntor/bbolt/internal/btesting"
 )
 
 // Ensure that a cursor can return a reference to the bucket that created it.

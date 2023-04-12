@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"go.etcd.io/bbolt/errors"
+	"github.com/khuntor/bbolt/errors"
 )
 
 // fdatasync flushes written data to a file descriptor.

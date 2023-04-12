@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	bolt "go.etcd.io/bbolt"
-	main "go.etcd.io/bbolt/cmd/bbolt"
-	"go.etcd.io/bbolt/internal/btesting"
-	"go.etcd.io/bbolt/internal/common"
-	"go.etcd.io/bbolt/internal/guts_cli"
+	bolt "github.com/khuntor/bbolt"
+	main "github.com/khuntor/bbolt/cmd/bbolt"
+	"github.com/khuntor/bbolt/internal/btesting"
+	"github.com/khuntor/bbolt/internal/common"
+	"github.com/khuntor/bbolt/internal/guts_cli"
 )
 
 func TestSurgery_ClearPageElements_Without_Overflow(t *testing.T) {

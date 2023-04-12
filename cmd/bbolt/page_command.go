@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"go.etcd.io/bbolt/internal/common"
-	"go.etcd.io/bbolt/internal/guts_cli"
+	"github.com/khuntor/bbolt/internal/common"
+	"github.com/khuntor/bbolt/internal/guts_cli"
 )
 
 // pageCommand represents the "page" command execution.

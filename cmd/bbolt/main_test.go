@@ -13,12 +13,12 @@ import (
 	"sync"
 	"testing"
 
-	"go.etcd.io/bbolt/internal/btesting"
+	"github.com/khuntor/bbolt/internal/btesting"
 
 	"github.com/stretchr/testify/require"
 
-	bolt "go.etcd.io/bbolt"
-	main "go.etcd.io/bbolt/cmd/bbolt"
+	bolt "github.com/khuntor/bbolt"
+	main "github.com/khuntor/bbolt/cmd/bbolt"
 )
 
 // Ensure the "info" command can print information about a database.

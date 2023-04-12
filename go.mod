@@ -1,4 +1,4 @@
-module go.etcd.io/bbolt
+module github.com/khuntor/bbolt
 
 go 1.19
 
