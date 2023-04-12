@@ -95,6 +95,10 @@ func (tx *Tx) Stats() TxStats {
 	return tx.stats
 }
 
+func (tx *Tx) Root() *Bucket {
+	return &tx.root
+}
+
 // Bucket retrieves a bucket by name.
 // Returns nil if the bucket does not exist.
 // The bucket instance is only valid for the lifetime of the transaction.
