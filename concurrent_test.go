@@ -16,9 +16,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
 
-	bolt "go.etcd.io/bbolt"
-	"go.etcd.io/bbolt/internal/btesting"
-	"go.etcd.io/bbolt/internal/common"
+	bolt "github.com/khuntor/bbolt"
+	"github.com/khuntor/bbolt/internal/btesting"
+	"github.com/khuntor/bbolt/internal/common"
 )
 
 func TestConcurrentReadAndWrite(t *testing.T) {

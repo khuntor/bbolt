@@ -20,10 +20,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	bolt "go.etcd.io/bbolt"
-	berrors "go.etcd.io/bbolt/errors"
-	"go.etcd.io/bbolt/internal/common"
-	"go.etcd.io/bbolt/internal/guts_cli"
+	bolt "github.com/khuntor/bbolt"
+	berrors "github.com/khuntor/bbolt/errors"
+	"github.com/khuntor/bbolt/internal/common"
+	"github.com/khuntor/bbolt/internal/guts_cli"
 )
 
 var (

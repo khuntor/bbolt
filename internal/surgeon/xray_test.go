@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/bbolt"
-	"go.etcd.io/bbolt/internal/btesting"
-	"go.etcd.io/bbolt/internal/guts_cli"
-	"go.etcd.io/bbolt/internal/surgeon"
+	"github.com/khuntor/bbolt"
+	"github.com/khuntor/bbolt/internal/btesting"
+	"github.com/khuntor/bbolt/internal/guts_cli"
+	"github.com/khuntor/bbolt/internal/surgeon"
 )
 
 func TestFindPathsToKey(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sort"
 
-	"go.etcd.io/bbolt/internal/common"
+	"github.com/khuntor/bbolt/internal/common"
 )
 
 // node represents an in-memory, deserialized page.

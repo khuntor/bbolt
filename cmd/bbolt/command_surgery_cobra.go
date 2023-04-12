@@ -7,8 +7,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"go.etcd.io/bbolt/internal/common"
-	"go.etcd.io/bbolt/internal/surgeon"
+	"github.com/khuntor/bbolt/internal/common"
+	"github.com/khuntor/bbolt/internal/surgeon"
 )
 
 var (
